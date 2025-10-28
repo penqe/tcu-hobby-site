@@ -97,10 +97,12 @@ th {
   }
 }
 
-th, td {
-  &[data-sp-display="none"] {
-    display: none;
-  }
+@media (max-width: 600px) {
+	th, td {
+	  &[data-sp-display="none"] {
+	    display: none;
+	  }
+	}
 }
 
 /* media queries */
