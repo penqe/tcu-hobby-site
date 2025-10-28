@@ -97,6 +97,12 @@ th {
   }
 }
 
+th, td {
+  &[data-sp-display="none"] {
+    display: none;
+  }
+}
+
 /* media queries */
 @media (max-width: 600px) {
   /* body {
